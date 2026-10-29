@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Universal Mobile Mechanic offers mobile mechanic service for cars, ATVs, jet skis, motorcycles and scooters in Miami and surrounding areas.">
+<title>Universal Mobile Mechanic | We Come to You</title>
+<style>
+:root{--bg:#070808;--surface:#101212;--surface2:#151818;--text:#f6f7f6;--muted:#b7bfba;--line:#2a302d;--green:#078653;--orange:#ff650c;--silver:#aab1ad}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit}.wrap{width:min(1140px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#070808f2;border-bottom:1px solid #ffffff16;backdrop-filter:blur(12px)}
+.nav{min-height:86px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand img{display:block;width:235px;max-width:45vw;height:auto}
+nav{display:flex;gap:24px}nav a{text-decoration:none;color:#dce0dd;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase}nav a:hover{color:var(--green)}
+.call-pill{background:#f6f7f6;color:#090a09;text-decoration:none;font-weight:900;border-radius:5px;padding:12px 17px;white-space:nowrap;font-size:13px}.call-pill span{color:var(--green)}
+.hero{position:relative;overflow:hidden;padding:82px 0 78px;background:radial-gradient(ellipse at 83% 45%,#1c211e 0,#0b0d0c 35%,#070808 70%)}
+.hero:after{content:"";position:absolute;right:-180px;top:-220px;width:620px;height:620px;border:1px solid #07865345;border-radius:50%;box-shadow:0 0 0 42px #0786530b,0 0 0 95px #ff650c08;pointer-events:none}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:3px;font-weight:900;color:var(--silver)}.kicker:before{content:"";display:inline-block;width:24px;height:3px;background:var(--green);vertical-align:middle;margin-right:10px}
+h1{font-size:clamp(43px,6.3vw,78px);line-height:.98;letter-spacing:-3px;text-transform:uppercase;margin:19px 0 22px}h1 span{color:#fff}h1 em{font-style:normal;color:var(--green)}
+.lead{font-size:18px;color:#c7ceca;max-width:560px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 21px;border-radius:5px;text-decoration:none;font-weight:900;font-size:14px;transition:transform .15s ease,background .15s ease}
+.btn:hover{transform:translateY(-2px)}.btn-main{background:var(--green);color:#fff;border:1px solid var(--green)}.btn-outline{border:1px solid #606762;color:#fff;background:#ffffff05}.btn-outline b{color:var(--orange)}
+.small-note{font-size:12px;color:#8e9891;margin-top:16px}
+.hero-card{position:relative;min-height:360px;border:1px solid #ffffff22;border-radius:12px;overflow:hidden;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(145deg,#1d2420,#0e1110 60%,#181b19);box-shadow:0 24px 70px #0008}
+.hero-card:before{content:"UMM";position:absolute;right:0;top:-36px;font-size:clamp(100px,15vw,180px);font-weight:1000;font-style:italic;letter-spacing:-10px;color:#ffffff06}
+.hero-card:after{content:"";position:absolute;width:250px;height:250px;right:-45px;top:-45px;border:1px solid #ff650c55;border-radius:50%;box-shadow:0 0 0 24px #0786530b}
+.tool-icon{font-size:84px;z-index:1;filter:grayscale(.2)}.hero-card h2{z-index:1;font-size:30px;line-height:1.1;text-transform:uppercase;margin:12px 0}.hero-card h2 span{color:var(--orange)}.hero-card p{z-index:1;color:#b8c1bb;margin:0}
+.floating-label{position:absolute;top:20px;left:20px;z-index:2;font-size:10px;font-weight:900;letter-spacing:2px;text-transform:uppercase;border-left:3px solid var(--green);padding:4px 0 4px 10px}
+.trust{border-top:1px solid #ffffff12;border-bottom:1px solid #ffffff12;background:#0b0d0c}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:19px 0;gap:15px}.trust-item{display:flex;align-items:center;gap:11px;color:#d7ddd8;font-size:13px;font-weight:800}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px #07865388;flex-shrink:0}
+section{padding:75px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 38px}.eyebrow{color:var(--orange);font-size:11px;letter-spacing:3px;font-weight:900;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.08;text-transform:uppercase;margin:10px 0 12px;letter-spacing:-1px}.section-head p{color:var(--muted);margin:0}
+.services{background:#f1f3f1;color:#121614}.services .eyebrow{color:#087c4e}.services .section-head p{color:#626b65}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+.service{background:#fff;border:1px solid #dfe4e0;border-radius:8px;padding:24px 15px;text-align:center;box-shadow:0 8px 25px #00000008}.service .emoji{font-size:38px;filter:saturate(.7)}.service h3{font-size:14px;text-transform:uppercase;margin:12px 0 7px}.service p{font-size:12px;color:#68716b;margin:0}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.why{border:1px solid var(--line);background:linear-gradient(145deg,#121514,#0b0d0c);border-radius:8px;padding:23px}.why .emoji{font-size:27px}.why h3{font-size:14px;text-transform:uppercase;margin:12px 0 6px}.why p{font-size:13px;color:var(--muted);margin:0}.why:nth-child(2) h3{color:var(--green)}.why:nth-child(3) h3{color:var(--orange)}
+.about{background:#101312;border-top:1px solid #ffffff10;border-bottom:1px solid #ffffff10}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:center}.about-art{min-height:270px;border-radius:10px;border:1px solid #ffffff20;background:linear-gradient(135deg,#191f1b,#0a0c0b);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px;text-align:center}.about-art .big{font-size:70px}.about-art h3{margin:10px 0 0;text-transform:uppercase;font-size:23px}.about-art p{color:var(--muted);margin:3px 0}.about h2{font-size:clamp(31px,4vw,45px);line-height:1.06;text-transform:uppercase;letter-spacing:-1px}.about h2 span{color:var(--green)}.about p{color:var(--muted)}
+.contact{background:linear-gradient(115deg,#111513,#080909 70%);text-align:center;position:relative;overflow:hidden}.contact:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:linear-gradient(var(--green) 0 50%,var(--orange) 50%)}.contact .wrap{position:relative}.contact h2{font-size:clamp(35px,5vw,56px);line-height:1.04;text-transform:uppercase;margin:12px 0}.contact p{max-width:670px;margin:0 auto;color:var(--muted)}.contact .actions{justify-content:center}.contact .btn-main{background:#f6f7f6;color:#070808;border-color:#f6f7f6}.contact .btn-main span{color:var(--green)}.contact .btn-outline{border-color:#3d4540}.notice{font-size:12px;margin-top:17px!important;color:#909a93!important}
+footer{background:#050606;padding:23px 0;color:#8f9992;font-size:12px;border-top:1px solid #ffffff13}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer strong{color:#fff}
+@media(max-width:850px){nav{display:none}.hero{padding:56px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.hero-card{min-height:290px}.cards{grid-template-columns:repeat(2,1fr)}.service:last-child{grid-column:span 2}.why-grid{grid-template-columns:repeat(2,1fr)}.trust-grid{grid-template-columns:1fr;gap:10px}}
+@media(max-width:460px){.nav{min-height:70px}.brand img{width:165px;max-width:47vw}.call-pill{padding:10px;font-size:11px}.hero{padding:42px 0}h1{letter-spacing:-1.5px}.lead{font-size:16px}.cards{grid-template-columns:1fr}.service:last-child{grid-column:auto}.why-grid{grid-template-columns:1fr}.hero-card{min-height:260px}.tool-icon{font-size:65px}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home" aria-label="Universal Mobile Mechanic home"><img src="umm-logo.png" alt="Universal Mobile Mechanic logo"></a>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="call-pill" href="tel:+17864791944"><span>☎</span> (786) 479-1944</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="kicker">Miami & surrounding areas</div>
+<h1>Mechanic service.<br><em>On your terms.</em></h1>
+<p class="lead">Convenient mobile mechanic service for cars, ATVs, jet skis, motorcycles, and scooters. Tell us what you drive and where you need help.</p>
+<div class="actions"><a class="btn btn-main" href="tel:+17864791944">☎ &nbsp; CALL (786) 479-1944</a><a class="btn btn-outline" href="https://wa.me/17864791944"><b>◉</b> &nbsp; WHATSAPP US</a></div>
+<p class="small-note">One call gets the conversation started. Service availability confirmed when you contact us.</p></div>
+<div class="hero-card"><div class="floating-label">Mobile service • Miami</div><div class="tool-icon" aria-hidden="true">🔧</div><h2>Your vehicle.<br><span>Your location.</span></h2><p>Cars · ATVs · Jet skis · Motorcycles · Scooters</p></div>
+</div></section>
+<div class="trust"><div class="wrap trust-grid"><div class="trust-item"><span class="dot"></span> Service at your location</div><div class="trust-item"><span class="dot" style="background:var(--orange)"></span> Multiple vehicle types</div><div class="trust-item"><span class="dot"></span> Easy phone and WhatsApp contact</div></div></div>
+<section class="services" id="services"><div class="wrap">
+<div class="section-head"><div class="eyebrow">What we work on</div><h2>One call. Multiple vehicles.</h2><p>Contact us with your vehicle details and the issue you're experiencing. We'll discuss your service needs and availability.</p></div>
+<div class="cards">
+<article class="service"><div class="emoji">🚗</div><h3>Cars & Trucks</h3><p>Maintenance, diagnostics and repair inquiries.</p></article>
+<article class="service"><div class="emoji">🏍️</div><h3>ATVs</h3><p>Ask about service for your ATV.</p></article>
+<article class="service"><div class="emoji">🛥️</div><h3>Jet Skis</h3><p>Ask about personal watercraft service.</p></article>
+<article class="service"><div class="emoji">🏍️</div><h3>Motorcycles</h3><p>Maintenance and repair inquiries.</p></article>
+<article class="service"><div class="emoji">🛵</div><h3>Scooters</h3><p>Tell us the model and the issue.</p></article>
+</div></div></section>
+<section><div class="wrap"><div class="section-head"><div class="eyebrow">Why UMM</div><h2>Convenience comes first.</h2><p>Our goal is to make getting help with your vehicle simpler and more straightforward.</p></div>
+<div class="why-grid">
+<article class="why"><div class="emoji">📍</div><h3>We come to you</h3><p>Ask about mobile service at your home or another suitable location.</p></article>
+<article class="why"><div class="emoji">🧰</div><h3>Several vehicle types</h3><p>One point of contact for cars and recreational vehicles.</p></article>
+<article class="why"><div class="emoji">📲</div><h3>Easy to reach</h3><p>Call or message us with the vehicle details and problem.</p></article>
+<article class="why"><div class="emoji">🤝</div><h3>Clear next steps</h3><p>Discuss availability and the work needed before arranging service.</p></article>
+</div></div></section>
+<section class="about" id="about"><div class="wrap about-grid">
+<div class="about-art"><div class="big">🚘 🔧</div><h3>Universal Mobile Mechanic</h3><p>Mobile service for your vehicles</p></div>
+<div><div class="eyebrow">About UMM</div><h2>Help with your vehicle, <span>where you are.</span></h2><p>Universal Mobile Mechanic provides mobile mechanic services in Miami and surrounding areas. We work with customers who need help with cars, ATVs, jet skis, motorcycles, and scooters.</p><p>When you contact us, share the make, model, year, your general location, and a description of the issue. We'll discuss whether we can help and confirm availability.</p></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Let's get you moving</div><h2>Need a mechanic?</h2><p>Call or WhatsApp us to discuss your vehicle and service needs. Please include the vehicle type, make, model, year, and the issue you're experiencing.</p>
+<div class="actions"><a class="btn btn-main" href="tel:+17864791944"><span>☎</span> CALL (786) 479-1944</a><a class="btn btn-outline" href="https://wa.me/17864791944"><b>◉</b> WHATSAPP CHAT</a></div>
+<p class="notice">Serving Miami and surrounding areas. Service availability and exact work offered should be confirmed before booking.</p></div></section>
+</main>
+<footer><div class="wrap"><span><strong>UMM</strong> · Universal Mobile Mechanic</span><span>© 2026 Universal Mobile Mechanic. All rights reserved.</span></div></footer>
+</body></html>
